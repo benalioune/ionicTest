@@ -1,0 +1,22 @@
+/* iOS places the subtitle above the title */
+ion-content {
+
+    --ion-background-color: white !important;
+    text-align: center;
+    
+  }
+
+
+  ion-header{
+
+    position: absolute;
+    
+  }
+
+
+
+  .ion-toolbar{
+
+--ion-background-color: transparent;
+--opacity:0;
+}

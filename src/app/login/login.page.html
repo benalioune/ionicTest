@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="cardLogin">
+
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>
+          <ion-icon  class="iconLogin" name="people-circle-outline"></ion-icon>
+        </ion-card-title>
+        <ion-card-subtitle>Admin Login</ion-card-subtitle>
+      </ion-card-header>
+    
+      <br>
+
+      <ion-card-content>
+        
+        <ion-item>
+          <ion-label position="floating">identifiant</ion-label>
+          <ion-input placeholder="Enter id"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">mot de passe</ion-label>
+          <ion-input placeholder="Enter password"></ion-input>
+        </ion-item>
+        <br>
+
+        <ion-button [routerLink]="['/menu']" color="danger">Login</ion-button>
+        
+      </ion-card-content>
+    </ion-card>
+  
+
+  </div>
+  
+</ion-content>
