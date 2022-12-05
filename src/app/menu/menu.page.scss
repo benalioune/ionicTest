@@ -1,0 +1,12 @@
+ion-toolbar{
+  text-align: center;
+  }
+
+  .avatar{
+    display: flex;
+  justify-content: center;
+    }
+  
+    ion-avatar {
+        --border-radius: 4px;
+      }

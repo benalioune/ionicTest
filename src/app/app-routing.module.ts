@@ -21,6 +21,14 @@ const routes: Routes = [
   {
     path: 'menu',
     loadChildren: () => import('./menu/menu.module').then( m => m.MenuPageModule)
+  },
+  {
+    path: 'create-employee',
+    loadChildren: () => import('./create-employee/create-employee.module').then( m => m.CreateEmployeePageModule)
+  },
+  {
+    path: 'list-employee',
+    loadChildren: () => import('./list-employee/list-employee.module').then( m => m.ListEmployeePageModule)
   }
 
   
